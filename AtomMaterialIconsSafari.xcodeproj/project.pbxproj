@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816FE60525B03B13009AAC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816FE60425B03B13009AAC9C /* AppDelegate.swift */; };
+		816FE60825B03B13009AAC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816FE60625B03B13009AAC9C /* Main.storyboard */; };
+		816FE60A25B03B13009AAC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816FE60925B03B13009AAC9C /* ViewController.swift */; };
+		816FE60C25B03B14009AAC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816FE60B25B03B14009AAC9C /* Assets.xcassets */; };
+		816FE61325B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 816FE61225B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		816FE61825B03B14009AAC9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816FE61725B03B14009AAC9C /* Cocoa.framework */; };
+		816FE61B25B03B14009AAC9C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816FE61A25B03B14009AAC9C /* SafariWebExtensionHandler.swift */; };
+		816FE64A25B03D46009AAC9C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 816FE63C25B03D43009AAC9C /* manifest.json */; };
+		816FE64B25B03D46009AAC9C /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE63D25B03D43009AAC9C /* icon16.png */; };
+		816FE64C25B03D46009AAC9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE63E25B03D43009AAC9C /* icon.png */; };
+		816FE64D25B03D46009AAC9C /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 816FE63F25B03D43009AAC9C /* package.json */; };
+		816FE64E25B03D46009AAC9C /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64025B03D43009AAC9C /* icon32.png */; };
+		816FE64F25B03D46009AAC9C /* rollup.config.js in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64125B03D44009AAC9C /* rollup.config.js */; };
+		816FE65125B03D46009AAC9C /* public in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64325B03D45009AAC9C /* public */; };
+		816FE65225B03D46009AAC9C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64425B03D45009AAC9C /* assets */; };
+		816FE65325B03D46009AAC9C /* src in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64525B03D45009AAC9C /* src */; };
+		816FE65425B03D46009AAC9C /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64625B03D46009AAC9C /* icon128.png */; };
+		816FE65525B03D46009AAC9C /* gulpfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64725B03D46009AAC9C /* gulpfile.js */; };
+		816FE65625B03D46009AAC9C /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64825B03D46009AAC9C /* icon48.png */; };
+		816FE65725B03D46009AAC9C /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 816FE64925B03D46009AAC9C /* package-lock.json */; };
+		816FE65F25B03D7E009AAC9C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 816FE65A25B03D7D009AAC9C /* .gitignore */; };
+		816FE66025B03D7E009AAC9C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 816FE65B25B03D7D009AAC9C /* README.md */; };
+		816FE66125B03D7E009AAC9C /* .github in Resources */ = {isa = PBXBuildFile; fileRef = 816FE65C25B03D7D009AAC9C /* .github */; };
+		816FE66225B03D7E009AAC9C /* SECURITY.md in Resources */ = {isa = PBXBuildFile; fileRef = 816FE65D25B03D7E009AAC9C /* SECURITY.md */; };
+		816FE66325B03D7E009AAC9C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 816FE65E25B03D7E009AAC9C /* LICENSE */; };
+		816FE66F25B0448C009AAC9C /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 816FE66E25B0448C009AAC9C /* safari.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816FE61425B03B14009AAC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816FE5F825B03B13009AAC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816FE61125B03B14009AAC9C;
+			remoteInfo = "AtomMaterialIconsSafari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		816FE63425B03B14009AAC9C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				816FE61325B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		816FE60025B03B13009AAC9C /* AtomMaterialIconsSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomMaterialIconsSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816FE60325B03B13009AAC9C /* AtomMaterialIconsSafari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtomMaterialIconsSafari.entitlements; sourceTree = "<group>"; };
+		816FE60425B03B13009AAC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816FE60725B03B13009AAC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816FE60925B03B13009AAC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		816FE60B25B03B14009AAC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816FE60D25B03B14009AAC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816FE61225B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AtomMaterialIconsSafari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816FE61725B03B14009AAC9C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		816FE61A25B03B14009AAC9C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		816FE62D25B03B14009AAC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816FE62E25B03B14009AAC9C /* AtomMaterialIconsSafari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtomMaterialIconsSafari_Extension.entitlements; sourceTree = "<group>"; };
+		816FE63C25B03D43009AAC9C /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		816FE63D25B03D43009AAC9C /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon16.png; sourceTree = "<group>"; };
+		816FE63E25B03D43009AAC9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		816FE63F25B03D43009AAC9C /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		816FE64025B03D43009AAC9C /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon32.png; sourceTree = "<group>"; };
+		816FE64125B03D44009AAC9C /* rollup.config.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rollup.config.js; sourceTree = "<group>"; };
+		816FE64325B03D45009AAC9C /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		816FE64425B03D45009AAC9C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		816FE64525B03D45009AAC9C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		816FE64625B03D46009AAC9C /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon128.png; sourceTree = "<group>"; };
+		816FE64725B03D46009AAC9C /* gulpfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gulpfile.js; sourceTree = "<group>"; };
+		816FE64825B03D46009AAC9C /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon48.png; sourceTree = "<group>"; };
+		816FE64925B03D46009AAC9C /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		816FE65A25B03D7D009AAC9C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		816FE65B25B03D7D009AAC9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		816FE65C25B03D7D009AAC9C /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
+		816FE65D25B03D7E009AAC9C /* SECURITY.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SECURITY.md; sourceTree = "<group>"; };
+		816FE65E25B03D7E009AAC9C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		816FE66E25B0448C009AAC9C /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816FE5FD25B03B13009AAC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816FE60F25B03B14009AAC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816FE61825B03B14009AAC9C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816FE5F725B03B13009AAC9C = {
+			isa = PBXGroup;
+			children = (
+				816FE65C25B03D7D009AAC9C /* .github */,
+				816FE65A25B03D7D009AAC9C /* .gitignore */,
+				816FE65E25B03D7E009AAC9C /* LICENSE */,
+				816FE65B25B03D7D009AAC9C /* README.md */,
+				816FE65D25B03D7E009AAC9C /* SECURITY.md */,
+				816FE66E25B0448C009AAC9C /* safari.png */,
+				816FE60225B03B13009AAC9C /* AtomMaterialIconsSafari */,
+				816FE61925B03B14009AAC9C /* AtomMaterialIconsSafari Extension */,
+				816FE61625B03B14009AAC9C /* Frameworks */,
+				816FE60125B03B13009AAC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816FE60125B03B13009AAC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816FE60025B03B13009AAC9C /* AtomMaterialIconsSafari.app */,
+				816FE61225B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816FE60225B03B13009AAC9C /* AtomMaterialIconsSafari */ = {
+			isa = PBXGroup;
+			children = (
+				816FE60325B03B13009AAC9C /* AtomMaterialIconsSafari.entitlements */,
+				816FE60425B03B13009AAC9C /* AppDelegate.swift */,
+				816FE60625B03B13009AAC9C /* Main.storyboard */,
+				816FE60925B03B13009AAC9C /* ViewController.swift */,
+				816FE60B25B03B14009AAC9C /* Assets.xcassets */,
+				816FE60D25B03B14009AAC9C /* Info.plist */,
+			);
+			path = AtomMaterialIconsSafari;
+			sourceTree = "<group>";
+		};
+		816FE61625B03B14009AAC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816FE61725B03B14009AAC9C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		816FE61925B03B14009AAC9C /* AtomMaterialIconsSafari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				816FE61A25B03B14009AAC9C /* SafariWebExtensionHandler.swift */,
+				816FE62D25B03B14009AAC9C /* Info.plist */,
+				816FE62E25B03B14009AAC9C /* AtomMaterialIconsSafari_Extension.entitlements */,
+				816FE61C25B03B14009AAC9C /* Resources */,
+			);
+			path = "AtomMaterialIconsSafari Extension";
+			sourceTree = "<group>";
+		};
+		816FE61C25B03B14009AAC9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				816FE64425B03D45009AAC9C /* assets */,
+				816FE64725B03D46009AAC9C /* gulpfile.js */,
+				816FE63E25B03D43009AAC9C /* icon.png */,
+				816FE63D25B03D43009AAC9C /* icon16.png */,
+				816FE64025B03D43009AAC9C /* icon32.png */,
+				816FE64825B03D46009AAC9C /* icon48.png */,
+				816FE64625B03D46009AAC9C /* icon128.png */,
+				816FE63C25B03D43009AAC9C /* manifest.json */,
+				816FE64925B03D46009AAC9C /* package-lock.json */,
+				816FE63F25B03D43009AAC9C /* package.json */,
+				816FE64325B03D45009AAC9C /* public */,
+				816FE64125B03D44009AAC9C /* rollup.config.js */,
+				816FE64525B03D45009AAC9C /* src */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816FE5FF25B03B13009AAC9C /* AtomMaterialIconsSafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816FE63525B03B14009AAC9C /* Build configuration list for PBXNativeTarget "AtomMaterialIconsSafari" */;
+			buildPhases = (
+				816FE5FC25B03B13009AAC9C /* Sources */,
+				816FE5FD25B03B13009AAC9C /* Frameworks */,
+				816FE5FE25B03B13009AAC9C /* Resources */,
+				816FE63425B03B14009AAC9C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816FE61525B03B14009AAC9C /* PBXTargetDependency */,
+			);
+			name = AtomMaterialIconsSafari;
+			productName = AtomMaterialIconsSafari;
+			productReference = 816FE60025B03B13009AAC9C /* AtomMaterialIconsSafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816FE61125B03B14009AAC9C /* AtomMaterialIconsSafari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816FE63125B03B14009AAC9C /* Build configuration list for PBXNativeTarget "AtomMaterialIconsSafari Extension" */;
+			buildPhases = (
+				816FE60E25B03B14009AAC9C /* Sources */,
+				816FE60F25B03B14009AAC9C /* Frameworks */,
+				816FE61025B03B14009AAC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AtomMaterialIconsSafari Extension";
+			productName = "AtomMaterialIconsSafari Extension";
+			productReference = 816FE61225B03B14009AAC9C /* AtomMaterialIconsSafari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816FE5F825B03B13009AAC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					816FE5FF25B03B13009AAC9C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					816FE61125B03B14009AAC9C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 816FE5FB25B03B13009AAC9C /* Build configuration list for PBXProject "AtomMaterialIconsSafari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816FE5F725B03B13009AAC9C;
+			productRefGroup = 816FE60125B03B13009AAC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816FE5FF25B03B13009AAC9C /* AtomMaterialIconsSafari */,
+				816FE61125B03B14009AAC9C /* AtomMaterialIconsSafari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816FE5FE25B03B13009AAC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816FE60C25B03B14009AAC9C /* Assets.xcassets in Resources */,
+				816FE60825B03B13009AAC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816FE61025B03B14009AAC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816FE66225B03D7E009AAC9C /* SECURITY.md in Resources */,
+				816FE64D25B03D46009AAC9C /* package.json in Resources */,
+				816FE65525B03D46009AAC9C /* gulpfile.js in Resources */,
+				816FE65425B03D46009AAC9C /* icon128.png in Resources */,
+				816FE64F25B03D46009AAC9C /* rollup.config.js in Resources */,
+				816FE65225B03D46009AAC9C /* assets in Resources */,
+				816FE66025B03D7E009AAC9C /* README.md in Resources */,
+				816FE64A25B03D46009AAC9C /* manifest.json in Resources */,
+				816FE65725B03D46009AAC9C /* package-lock.json in Resources */,
+				816FE64B25B03D46009AAC9C /* icon16.png in Resources */,
+				816FE66325B03D7E009AAC9C /* LICENSE in Resources */,
+				816FE65125B03D46009AAC9C /* public in Resources */,
+				816FE65F25B03D7E009AAC9C /* .gitignore in Resources */,
+				816FE64C25B03D46009AAC9C /* icon.png in Resources */,
+				816FE65625B03D46009AAC9C /* icon48.png in Resources */,
+				816FE66125B03D7E009AAC9C /* .github in Resources */,
+				816FE66F25B0448C009AAC9C /* safari.png in Resources */,
+				816FE64E25B03D46009AAC9C /* icon32.png in Resources */,
+				816FE65325B03D46009AAC9C /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816FE5FC25B03B13009AAC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816FE60A25B03B13009AAC9C /* ViewController.swift in Sources */,
+				816FE60525B03B13009AAC9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816FE60E25B03B14009AAC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816FE61B25B03B14009AAC9C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816FE61525B03B14009AAC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816FE61125B03B14009AAC9C /* AtomMaterialIconsSafari Extension */;
+			targetProxy = 816FE61425B03B14009AAC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816FE60625B03B13009AAC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816FE60725B03B13009AAC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816FE62F25B03B14009AAC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		816FE63025B03B14009AAC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		816FE63225B03B14009AAC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AtomMaterialIconsSafari Extension/AtomMaterialIconsSafari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AtomMaterialIconsSafari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.AtomMaterialIconsSafari.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		816FE63325B03B14009AAC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AtomMaterialIconsSafari Extension/AtomMaterialIconsSafari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AtomMaterialIconsSafari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.AtomMaterialIconsSafari.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		816FE63625B03B14009AAC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AtomMaterialIconsSafari/AtomMaterialIconsSafari.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AtomMaterialIconsSafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.AtomMaterialIconsSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		816FE63725B03B14009AAC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AtomMaterialIconsSafari/AtomMaterialIconsSafari.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AtomMaterialIconsSafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = in.seunghyun.AtomMaterialIconsSafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816FE5FB25B03B13009AAC9C /* Build configuration list for PBXProject "AtomMaterialIconsSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816FE62F25B03B14009AAC9C /* Debug */,
+				816FE63025B03B14009AAC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816FE63125B03B14009AAC9C /* Build configuration list for PBXNativeTarget "AtomMaterialIconsSafari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816FE63225B03B14009AAC9C /* Debug */,
+				816FE63325B03B14009AAC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816FE63525B03B14009AAC9C /* Build configuration list for PBXNativeTarget "AtomMaterialIconsSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816FE63625B03B14009AAC9C /* Debug */,
+				816FE63725B03B14009AAC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816FE5F825B03B13009AAC9C /* Project object */;
+}
